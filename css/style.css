@@ -535,26 +535,109 @@ body {
   bottom: 177px;
   right: 34px;
 }
-@media (max-width: 991.98px){
+@media (max-width: 991.98px) {
   .stay-safe {
-  padding: 40px 0;
-}
+    padding: 40px 0;
+  }
 }
 @media (min-width: 991.98px) {
   .stay-safe__media {
     padding: 0px 0px 0px 47px;
   }
 }
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
+  .stay-safe {
+    padding: 30px 0;
+  }
   .stay-safe__container {
     flex-direction: column-reverse;
   }
-  .stay-safe__content{
+  .stay-safe__content {
     margin: 0px 0px 30px 0px;
   }
 }
-  @media (max-width: 479.98px) {
-    .media-stay-safe {
-        width: 290px;
-    }
+@media (max-width: 479.98px) {
+  .media-stay-safe {
+    width: 290px;
+  }
+}
+
+/* ==================================================== */
+.experts {
+  background: #fafbfd;
+  padding: 103px 0px 116px 0px;
+}
+.experts__container {
+}
+.experts__statistic {
+}
+.statistic-experts {
+  max-width: 655px;
+  margin: 0 auto;
+  position: relative;
+}
+.statistic-experts__body {
+  background-color: #fff;
+  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+  position: relative;
+  z-index: 2;
+}
+.statistic-experts__decor {
+  position: absolute;
+  background-color: #ec5863;
+  border-radius: 30px;
+}
+.statistic-experts__decor1 {
+  width: 65px;
+  height: 65px;
+  transform: rotate(-30deg);
+  bottom: -21px;
+  left: -21px;
+  border-radius: 16px;
+}
+.statistic-experts__decor2 {
+  width: 128px;
+  height: 128px;
+  right: -55px;
+  top: 0;
+  transform: rotate(-30deg);
+}
+.statistic-experts__decor3 {
+  width: 97px;
+  height: 97px;
+  right: 50%;
+  top: -40px;
+  transform: rotate(30deg);
+}
+
+.body-statistic-experts {
+  padding: 25px 80px;
+  display: flex;
+  align-items: center;
+}
+.body-statistic-experts__item {
+  flex: 0 1 25%;
+  text-align: center;
+}
+
+.body-statistic-experts__item:last-child {
+  flex: 0 1 50%;
+}
+
+.body-statistic-experts__value {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #ec5863;
+  margin-bottom: 5px;
+}
+.body-statistic-experts__text {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.8;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000;
 }
